@@ -23,14 +23,15 @@ echo 123, 'Hello', 10.5;
 print 123;
 
 // php view chrome extension
-// print_r() - Print single values and array
+// print_r() - Print single values and arrays
 print_r([1,2,3]);
 
 // var_dump() - returns more info like data type and length
-var_dump('Hello');
+// used in debugging
+var_dump('Hello'); // Hello
 var_dump(true);
 
 // var_export() - Similar to var_dump(). Outputs a string representation of a variable
-var_export('Hello');
+var_export('Hello'); // 'Hello'
 
 ?>
